@@ -1,2 +1,2 @@
 ## full stack tading platform 
-### https://tradingwaves-lv6g.onrender.com 
+### https://tradingwave.onrender.com
