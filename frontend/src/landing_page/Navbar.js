@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 function Navbar() {
   return (
 
-    <nav class="navbar navbar-expand-lg border-bottom " style={{ backgroundColor: "#FFF", margin: "0%", padding: "0%" }}>
+    <nav class="navbar navbar-expand-lg border-bottom " data-aos="fade-down"  data-aos-duration="1000"  style={{ backgroundColor: "#FFF", margin: "0%", padding: "0%"   }}>
       <div class="container p-2">
         <Link class="navbar-brand" to={"/"} style={{ margin: "0%", padding: "0%" }}>
           <img src='media/images/3-19.jpg' alt='' style={{ width: "28%", marginLeft: "50%" }} />

@@ -4,7 +4,7 @@ let styles = { textDecoration: "none" }
 function Footer() {
   return (
 
-    <footer style={{ backgroundColor: "rgd(250,250,250)" }}>
+    <footer style={{ backgroundColor: "rgd(250,250,250)" }}  data-aos="fade-up" data-aos-duration =" 1000">
       <div className='container mt-5 border-top'>
         <div className='row mt-5 col-lg-12 col-md-12 col-6' >
           <div className='col'>

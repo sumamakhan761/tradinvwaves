@@ -5,9 +5,9 @@ function Awards() {
     <div className='container mt-5'>
       <div className='row'>
         <div className=' col-md-5  p-5 '>
-          <img src='media/images/largestBroker.svg' />
+          <img src='media/images/largestBroker.svg'   data-aos="zoom-in" data-aos-duration="1000" />
         </div>
-        <div className='col-md-7 col-sm-12 p-5'>
+        <div className='col-md-7 col-sm-12 p-5' data-aos="fade-left" data-aos-duration = "1000">
           <h2>Largest stock broker in India</h2>
           <p className='mb-5'>1.5+ Crore TradingWaves clients contribute to over 15% of all retail order volumes in India daily by trading and investing in:</p>
           <div className='row'>

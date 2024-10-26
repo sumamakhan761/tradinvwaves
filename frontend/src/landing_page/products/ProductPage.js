@@ -46,7 +46,7 @@ function ProductPage() {
        
         googlePlay=""
         appStore="" />
-      <p className='text-center'>Want to know more about our technology stack? Check out the Tradingwaves.tech blog.</p>
+      <p className='text-center' >Want to know more about our technology stack? Check out the Tradingwaves.tech blog.</p>
       <Universe />
     </>
   );

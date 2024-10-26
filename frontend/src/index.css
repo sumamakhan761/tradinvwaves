@@ -6,6 +6,9 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+*::-webkit-scrollbar {
+    width: 0;
+}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
@@ -16,17 +19,13 @@ code {
   margin-left: 33px;
 }
 
-.nav-link:hover {
-  background-color: #f7f8fc;
-  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
-  transform: translateY(-2px);
+/* .nav-link:hover {
+  color: #ff5722;
 }
 
 .nav-link:active {
-  background-color: #f5efef;
-  box-shadow: 0 3px 4px rgba(0, 0, 0, 0.2);
-  transform: translateY(2px);
-}
+  color: #ff5722;
+} */
 
 .a {
   text-decoration: "none";
@@ -960,4 +959,127 @@ hr {
 
 .action:hover {
   background-color: rgb(212, 212, 212);
+}
+
+/* Hero.css */
+
+.hero-section {
+  background-color: #f9f9fb;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+#supportWrapper {
+  background-color: #003366;
+  color: #ffffff;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.hero-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.track-link {
+  color: #ffdd57;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.hero-content {
+  margin-top: 2rem;
+}
+
+.hero-text {
+  color: #003366;
+  font-weight: 600;
+}
+
+.search-input {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.quick-links a {
+  display: inline-block;
+  margin-right: 1rem;
+  color: #0066cc;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.quick-links a:hover {
+  color: #004080;
+}
+
+.featured-section {
+  background-color: #ffffff;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.featured-title {
+  color: #003366;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.featured-list li {
+  margin-bottom: 0.5rem;
+}
+
+.featured-list a {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+.featured-list a:hover {
+  color: #004080;
+  text-decoration: underline;
+}
+
+@media (max-width: 420px) {
+  body {
+    font-size: 14px;
+    padding: 5px;
+  }
+
+  .nav-link {
+    margin-left: 10px;
+  }
+
+  .form_container {
+    margin-left: 0;
+    padding: 1.5rem;
+  }
+
+  .funds p {
+    font-size: 0.7rem;
+  }
+
+  .btn {
+    padding: 8px 15px;
+    font-size: 0.9rem;
+  }
+
+  .row {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .col {
+    flex-basis: 100%;
+    margin-top: 10px;
+  }
+
+  .order-table th, .order-table td {
+    font-size: 0.7rem;
+    padding: 8px;
+  }
 }

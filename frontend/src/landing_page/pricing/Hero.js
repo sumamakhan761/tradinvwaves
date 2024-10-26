@@ -1,8 +1,8 @@
 import React from 'react';
 function Hero() {
   return (
-    <div className='container'>
-      <div className='row mt-5 text-center p-5 border-bottom'>
+    <div className='container '>
+      <div className='row mt-5 text-center p-5 border-bottom animate__animated animate__pulse'>
         <h1 className='fs-1'>Pricing</h1>
         <h3 className='text-muted mt-3 fs-5 text-center'>Free equity investments and flat ₹20 intraday and F&O trades</h3>
       </div>

@@ -2,6 +2,9 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { BrowserRouter as Router, Routes, Route, BrowserRouter } from 'react-router-dom';
 import './index.css';
+import 'animate.css';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 import HomePage from './landing_page/home/HomePage';
 
@@ -20,6 +23,8 @@ import Holdings from "./components/Holdings";
 // import Positions from "./components/Positions";
 // import Summary from "./components/Summary";
 // import WatchList from "./components/WatchList";
+
+AOS.init();
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
